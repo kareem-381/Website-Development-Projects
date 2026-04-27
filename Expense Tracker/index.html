@@ -7,7 +7,48 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Expense Tracker</h1>
+
+    <div class="container">
+
+        <h1>Expense Tracker</h1>
+
+         <!-- Balance Container -->
+        <div class = "balance-container">
+            <h5 id = "your-balance">Your Balance</h5>
+            <p> $0.00</p>
+            <div class = "income-div">
+
+                <p> income <span>$0.00</span></p>
+            </div>
+            <div class = "expense-div">
+                <p>expenses <span>$0.00</span></p>
+            </div>
+        </div>
+
+         <!-- Transaction Container -->
+        <div class = "transaction-container">
+
+        </div>
+
+
+         <!-- Description Container -->
+        <div class="description-container">
+
+        <p>Description</p>
+        <input type="text" name="description" id="description" placeholder="Enter Description...">
+        <p>Amount</p>
+        <input type="text" name = "amount" id="amount" placeholder="Enter Amount...">
+        <p>use negative(-) for expenses</p>
+
+        <button>Add Tansaction</button>
+
+        </div>
+
+
+
+
+    </div>
+   
     <script src="script.js"></script>
 </body>
 </html>
