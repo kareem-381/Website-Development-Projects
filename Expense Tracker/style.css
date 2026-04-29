@@ -4,22 +4,23 @@
     box-sizing: border-box;
 }
 
-body{
-    background-color: #9AD872;
+body {
+    background-color:linear-gradient(135deg,#338657,#a8d5ba);
     display: flex;
     align-items: center;
     justify-content: center;  
     min-height: 100vh;
+    padding: 20px;
 }
 
 .container
 {
     background-color: #fff;
     width: 100%;
-    max-width: 600px;
+    max-width: 1200px;
     padding: 2rem;
     border-radius: 1rem;
-
+    box-shadow: 0px;
 }
 
 
